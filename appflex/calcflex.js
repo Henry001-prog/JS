@@ -1,9 +1,5 @@
-/**
-* JS - Aula5: Cslculadora FLEX
-* @author Alisson Henrique
-*/
 
-var etanol,gasolina;
+let etanol,gasolina;
 
 function calcular(){
 	etanol = parseFloat(frmFlex.txtEtanol.value.replace(",","."));
@@ -15,6 +11,7 @@ function calcular(){
 	}	
 }
 
+// funcao resetar
 function resetar(){
 	document.getElementById("status").src="neutro.png";
 }	
